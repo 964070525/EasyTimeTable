@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/one"
+          android:icon="@drawable/my_favorites"
+          android:title="401"/>
+
+    <item android:id="@+id/two"
+        android:icon="@drawable/my_competition"
+        android:title="402"/>
+
+    <item android:id="@+id/three"
+        android:icon="@drawable/my_honor"
+        android:title="403"/>
+
+    <item android:id="@+id/four"
+        android:icon="@drawable/my_offline_cache"
+        android:title="404"/>
+
+    <item android:id="@+id/five"
+        android:icon="@drawable/my_help_and_feedback"
+        android:title="405"/>
+
+    <item android:id="@+id/six"
+        android:icon="@drawable/my_set_up"
+        android:title="406"/>
+
+    <item android:id="@+id/seven"
+        android:icon="@drawable/my_favorites"
+        android:title="407"/>
+
+    <item android:id="@+id/eight"
+        android:icon="@drawable/my_competition"
+        android:title="408"/>
+
+    <item android:id="@+id/nine"
+        android:icon="@drawable/my_honor"
+        android:title="409"/>
+
+    <item android:id="@+id/ten"
+        android:icon="@drawable/my_offline_cache"
+        android:title="410"/>
+
+    <item android:id="@+id/eleven"
+        android:icon="@drawable/my_help_and_feedback"
+        android:title="411"/>
+
+    <item android:id="@+id/twelve"
+        android:icon="@drawable/my_set_up"
+        android:title="412"/>
+</menu>

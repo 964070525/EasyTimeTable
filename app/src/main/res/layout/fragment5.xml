@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.TeacherInformationFragment"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   >
+
+        <ImageView
+            android:id="@+id/h_back"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/h_head"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:src="@android:drawable/ic_delete" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/h_back"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"></TextView>
+
+            <ImageView
+                android:id="@+id/user_line"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/white" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.example.EasyTimetable.View.ItemView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_icon="@drawable/ic_nick_name"
+        app:left_text="姓名"
+        app:right_text="" />
+
+    <com.example.EasyTimetable.View.ItemView
+        android:id="@+id/xueyuan"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_icon="@drawable/ic_about"
+        app:left_text="学院"
+        app:right_text="计算机科学学院" />
+
+    <com.example.EasyTimetable.View.ItemView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        app:left_icon="@drawable/ic_pass"
+        app:left_text="修改密码"
+        app:right_text="" />
+
+    <com.example.EasyTimetable.View.ItemView
+        android:id="@+id/look"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_icon="@drawable/ic_sign_name"
+        app:left_text="查看排课"
+       />
+
+    <com.example.EasyTimetable.View.ItemView
+        android:id="@+id/suggest"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_icon="@drawable/ic_phone"
+        android:layout_marginLeft="-15px"
+        app:left_text="查询教室"
+        app:right_text="" />
+
+    <com.example.EasyTimetable.View.ItemView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_icon="@drawable/ic_about"
+        app:left_text="关于我们"
+        app:right_text="" />
+
+    <com.example.EasyTimetable.View.ItemView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_icon="@mipmap/logout"
+        app:left_text="退出登录"
+        app:right_text="" />
+
+
+</LinearLayout>
